@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COKTAIL DB</title>
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+</head>
+<body>
+<header>
+  <!-- sarch input & header -->
+
+  <section class="container" style="margin-top: 50px;">
+    <h1 class="text-center mb-5">Sarch <span class="text-info ">Coktail</span> By Name</h1>
+    <div class="input-group mb-3 w-50 mx-auto">
+    <input id="inputfild" type="text" class="form-control" aria-label="Text input with dropdown button" placeholder="sarch coktail name">
+    <button id="button" class="btn btn-outline-secondary " type="button"  aria-expanded="false">Sarch</button>
+    </div>
+ </section>
+   
+<!-- error handeling -->
+
+    <section style="margin-top: 100px;" class="container">
+      <div id="modal">
+      
+      </div>
+      <div id="error1">
+
+      </div>
+      <div id="error2">
+
+      </div>
+    </section>
+
+</header>
+<main>
+  <!-- card section -->
+
+  <section class="container">
+   <div id="parent" class="row row-cols-1 row-cols-md-4 g-4">
+  </div>       
+  </section>
+  
+
+</main>
+
+ <!-- bootstrap js    -->
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+ <!-- javascript -->
+ <script src="coktail.js"></script>
+</body>
+</html>
